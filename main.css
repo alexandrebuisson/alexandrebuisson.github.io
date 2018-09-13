@@ -1,0 +1,101 @@
+.fwdead {
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+
+.float-right{
+    float: right;
+}
+
+.card{
+    margin-bottom: 10px; 
+}
+
+.card .row {
+    padding: 10px;
+}
+
+button{
+    margin-bottom: 10px;
+}
+
+.badge {
+    font-size: 125%;
+    margin-bottom: 10px;
+}
+
+.rob-btn {
+        
+        padding: .25rem .5rem;
+        font-size: .675rem;
+        line-height: 1.5;
+        border-radius: .2rem;
+        color: #fff;
+        background-color: #6c757d;
+        border-color: #6c757d;
+
+}
+
+.pills {
+    text-align: center;
+}
+
+.card1 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	opacity: 0.5;
+
+}
+
+.card1:hover {
+    opacity: 1;
+}
+
+.card-img-overlay {
+    color: white;
+}
+
+.card-img-overlay h5 {
+    background-color: black;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 60px;
+    opacity: 0.9;
+    display: none;
+}
+
+.card-img-overlay:hover h5 {
+    display: block;
+    opacity: 1.5;
+    font-weight: bolder;
+}
+
+.card-img-overlay h4 {
+    background-color: black;
+    margin-top: 120px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 60px;
+    opacity: 0.9;
+    display: none;
+}
+
+.card-img-overlay:hover h4 {
+    display: block;
+    opacity: 1.5;
+    font-weight: bolder;
+}
+
