@@ -1,3 +1,98 @@
+.card-img-top {
+  opacity: 0.2;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.name {
+  top: 10%;
+  left: 50%;
+  transform: translate(-0%, -200%);
+  -ms-transform: translate(-20%, 0%);
+  text-align: center;
+  color: white;
+  font-size:30px;
+  
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+}
+
+.containeri:hover .card-img-top {
+  opacity: 1;
+}
+
+.containeri:hover .text {
+  opacity: 0;
+}
+
+.containeri:hover .name {
+  opacity: 1;
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  font-family: arial;
+  font-size: 20px;
+}
+.containeri:hover .nom {
+    visibility: hidden;
+}
+
+.text {
+  background-color: white;
+  width:250px;
+  font-family: arial;
+  color: black;
+  font-size: 32px;
+  padding: 1px 2px 1px 2px;
+  border-radius:10px;
+
+}
+
+.nom {
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    text-align: center;
+    opacity: 1;
+}
+
+.orange
+{
+    color: #ff7a00;
+}
+
+.containeri:hover .name
+{
+  opacity:1;
+  transform: translate(-10%, 20%);
+  -ms-transform: translate(30%, 20%);
+  text-align: center;
+}
+
+
+/*.table {
+  align-content: center;
+  text-align: center;
+}*/
+
+.imageter{
+  float: right;
+}
+
+
 .fwdead {
     margin-top:10px;
     margin-bottom:10px;
