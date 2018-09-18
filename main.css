@@ -42,6 +42,19 @@ body{
     padding-bottom: 10px;
 }
 
+.retaille {
+    margin-bottom: 10%;
+}
+
+
+.bgfonce {
+    background-image: url("medias/bg_dark.png");
+}
+
+.bgclair {
+    background-image: url("medias/bg_light.png");
+}
+
 .text-orange{
     color: #ff5f01;
 }
@@ -101,11 +114,11 @@ body{
 /* CAROUSEL */
 
 .carousel-caption{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .carousel-caption h5{
-    font-size: 35px;
+    font-size: 45px;
 }
 
 /* CARDS */
@@ -129,6 +142,7 @@ button{
     padding-bottom: 10px;
 }
 
+
 .badge:link{
     color: #343a40;
     text-decoration: none;
@@ -146,6 +160,10 @@ button{
 .badge:hover .mytitle{
     display: inline;
     text-decoration: underline;
+}
+
+.timg {
+    width: 180px;
 }
 
 .rob-btn {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
 <body>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-orange fixed-top">
-        <a class="navbar-brand" href="#"><img src="medias/logo.png"></a>
+        <a class="navbar-brand" href="#"><img src="medias/logo.png" alt="Logo findtheprecious"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,7 +47,6 @@
     </nav>
 
     <!--CAROUSEL-->
-
     <div id="carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carousel" data-slide-to="0" class=""></li>
@@ -59,21 +58,21 @@
                 <img class="d-block w-100" src="medias/dark_vador.jpg" alt="Vador">
                 <div class="carousel-caption">
                     <h5>Sauron is a very good bro,</h5>
-                    <p>please help him to find his ring !</p>
+                    <p class="retaille">please help him to find his ring !</p>
                 </div>
             </div>
             <div class="carousel-item active">
                 <img class="d-block w-100" src="medias/dark_vador.jpg" alt="Second slide">
                 <div class="carousel-caption">
                     <h5>Sauron is a very good bro,</h5>
-                    <p>please help him to find his ring !</p>
+                    <p class="retaille">please help him to find his ring !</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="medias/dark_vador.jpg" alt="Third slide">
                 <div class="carousel-caption">
                     <h5>Sauron is a very good bro,</h5>
-                    <p>please help him to find his ring !</p>
+                    <p class="retaille">please help him to find his ring !</p>
                 </div>
             </div>
         </div>
@@ -87,10 +86,10 @@
         </a>
     </div>
 
-    <div class="container">
+    <div class="bgclair">
 
         <!--FELLOWS-->
-        <section id="fellows" class="divisore">
+        <section id="fellows" class="container divisore">
             <h5 class="titre"><span class="mytitle text-orange">ij</span> Fellows Wanted Dead (or alive if you want to eat them
                 later) <span class="mytitle text-orange">ij</span></h5>
 
@@ -142,8 +141,9 @@
 
 
         <!--REWARD-->
-        <section id="reward" class="divisore bg-dark text-white">
-            <div class="container">
+    <div class="bgfonce">
+        <section id="reward" class="divisore text-white">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-10 col-md-8 col-sm-6">
                         <h5 class="titre"><span class="mytitle text-orange">ij</span> I have captured one of them, how to get my
@@ -162,12 +162,13 @@
                 </div>
             </div>
         </section>
+    </div>
 
 
 
         <!--BEST HUNTERS-->
-        <section id="hunters" class="divisore">
-            <h5 class="titre"><span class="mytitle text-orange">ij</span> Best Hunters <span class="mytitle text-orange">ij</span></h5>
+        <section id="hunters" class="container-fluid divisore justify-content-center">
+            <h5 class="titre"><span class="mytitle text-orange">ij</span> Our Best Hunters <span class="mytitle text-orange">ij</span></h5>
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
                     <div class="media">
@@ -195,9 +196,9 @@
 
 
         <!--ABOUT THE RING-->
-        <section id="about" class="divisore bg-dark text-white">
+        <section id="about" class="container-fluid divisore bgfonce text-white">
 
-            <div class="container-fluid bg-dark">
+            <div class="container-fluid bgfonce">
                 <h5 class="titre"><span class="mytitle text-orange">ij</span> About the Ring <span class="mytitle text-orange">ij</span></h5>
                 <div class="card bg-greyish">
                     <div class="card-header bg-orange text-white">
@@ -247,7 +248,9 @@
                             </div>
                         </div>
                         <div class="col-md-2 col-sm-12">
-                            <img src="medias/gollum.png" alt="" class="img-fluid rounded-circle" width="110px">
+                            <p>
+                                <img src="medias/gollum.png" alt="" class="img-fluid rounded-circle timg">
+                            </p>
                         </div>
 
                     </div>
@@ -258,11 +261,13 @@
 
 
         <!--JOIN THE ARMY-->
-        <section id="join" class="divisore">
+        <section id="join" class="container-fluid divisore">
             <h5 class="titre"><span class="mytitle text-orange">ij</span> Join Mordor Army, we need you! <span class="mytitle text-orange">ij</span></h5>
             <div class="row">
                 <div class="col-lg-2 col-md-4 col-sm-6">
-                    <img src="medias/weneedyou-1.png" alt="" class="rounded" width="150px">
+                    <p>
+                        <img src="medias/weneedyou-1.png" alt="" class="img-fluid rounded timg">
+                    </p>
                 </div>
                 <div class="col-lg-10 col-md-8 col-sm-6">
                     <h6>Bacon ipsum dolor amet bacon strip steak sausage shoulder, corned beef fatback meatball buffalo
@@ -277,7 +282,8 @@
 
 
         <!--CONTACT-->
-        <section id="contact">
+    
+        <section id="contact" class="container-fluid bgfonce text-white">
             <h5 class="titre"><span class="mytitle text-orange">ij</span> Contact us <span class="mytitle text-orange">ij</span></h5>
             <div class="row">
                 <div class="col-6">
@@ -291,6 +297,8 @@
                         <div class="form-group">
                             <select class="form-control form-control-sm">
                                 <option>I have seen one of them</option>
+                                <option>n°2</option>
+                                <option>n°3</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -304,13 +312,9 @@
             </div>
         </section>
 
-
-
-    </div>
-
     <!--FOOTER-->
     <footer>
-        <div class="container-fluid bg-orange">
+        <div class="bg-orange">
             <div class="row justify-content-end">
                 <div class="col-lg-4 col-sm-4 col-xs-4">
                     <ul>
@@ -331,6 +335,7 @@
                         <li>Sauron4Ever.com</li>
                         <li>Follow him also on Twitter</li>
                     </ul>
+                    <img class="img-fluid"src="medias/logo.png" alt="Logo"/>
                 </div>
             </div>
         </div>
@@ -339,8 +344,5 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-
-
 </body>
 </html>
